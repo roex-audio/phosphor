@@ -191,5 +191,5 @@ The right-hand panel controls the spectrogram's properties:
 
 - **Report bugs**: Help > Report a Bug, or visit [GitHub Issues](https://github.com/daveronan/phosphor/issues)
 - **Suggest features**: Help > Suggest a Feature, or visit [GitHub Discussions](https://github.com/daveronan/phosphor/discussions)
-- **Join the community**: Help > Join Discord
+- **Join the community**: [Discord](https://discord.gg/DpfwGsaVvZ) or Help > Join Discord
 - **Website**: [daveronan.com/phosphor](https://www.daveronan.com/phosphor)

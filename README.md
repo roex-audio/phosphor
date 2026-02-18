@@ -32,7 +32,7 @@ Phosphor is currently in **beta**. Your feedback helps shape the product.
 
 - **Report a bug**: [GitHub Issues](https://github.com/daveronan/phosphor/issues/new)
 - **Suggest a feature**: [GitHub Discussions](https://github.com/daveronan/phosphor/discussions) -- upvote ideas you like!
-- **Discord**: [Join the community](https://discord.gg/phosphor)
+- **Discord**: [Join the community](https://discord.gg/DpfwGsaVvZ)
 - **Website**: [daveronan.com](https://www.daveronan.com)
 
 ## License
