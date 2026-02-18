@@ -1,0 +1,16 @@
+libsndfile
+==========
+
+Copyright (C) 1999-2024 Erik de Castro Lopo
+
+libsndfile is licensed under the GNU Lesser General Public License
+version 2.1 or later (LGPL-2.1-or-later).
+
+https://libsndfile.github.io/libsndfile/
+https://github.com/libsndfile/libsndfile
+
+This program dynamically links against libsndfile. The LGPL permits
+use in proprietary and freeware applications when linked dynamically.
+
+The full text of the LGPL 2.1 is available at:
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
