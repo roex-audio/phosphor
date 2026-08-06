@@ -1,0 +1,74 @@
+name: Bug Report
+description: Report a bug or unexpected behaviour in Phosphor
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much detail as you can.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this behaviour?
+      placeholder: |
+        1. Open Phosphor
+        2. Select the Brush tool
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Phosphor version
+      description: Check Help > About Phosphor for the version number.
+      placeholder: "e.g. 0.3.0"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: macOS version
+      description: "e.g. macOS 14.2 Sonoma"
+      placeholder: "macOS XX.X"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac chip
+      options:
+        - Apple Silicon (M1/M2/M3/M4)
+        - Intel
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash logs or screenshots
+      description: If applicable, paste crash logs from ~/Library/Logs/Phosphor/ or attach screenshots.
+    validations:
+      required: false

@@ -1,0 +1,47 @@
+title: "[Feature]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest a new feature or improvement for Phosphor. Other users can upvote with a thumbs-up reaction to help prioritise.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: What would you like Phosphor to do?
+      placeholder: Describe the feature...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: How would you use this feature? What problem does it solve?
+      placeholder: Describe your use case...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Painting / Tools
+        - Audio / Synthesis
+        - Import / Export
+        - UI / UX
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you found any workarounds or alternative approaches?
+    validations:
+      required: false
